@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Dashboard",
+    "icon": "stats",
+    "active": true
+  },
+  {
+    "name": "Profile",
+    "icon": "person",
+    "active": false
+  },
+  {
+    "name": "Pricing Package",
+    "icon": "cube",
+    "active": false
+  },
+  {
+    "name": "Availability",
+    "icon": "calendar",
+    "active": false
+  },
+  {
+    "name": "Bookings",
+    "icon": "camera",
+    "active": false
+  },
+  {
+    "name": "Portfolio",
+    "icon": "briefcase",
+    "active": false
+  },
+  {
+    "name": "Albums",
+    "icon": "images",
+    "active": false
+  },
+  {
+    "name": "Subscriptions",
+    "icon": "basket",
+    "active": false
+  },
+  {
+    "name": "Payments",
+    "icon": "card",
+    "active": false
+  },
+  {
+    "name": "Setting",
+    "icon": "settings",
+    "active": false
+  }
+]

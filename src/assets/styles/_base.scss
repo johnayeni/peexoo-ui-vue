@@ -1,0 +1,78 @@
+$darkgray: #4e4e4e;
+$gray: #5c5c5c;
+$lightgray: #d1d1d1;
+$darkyellow: #ffb236;
+$lightyellow: #fff2d5;
+$cream: #fffdf7;
+$mobile-width: 768px;
+$desktop-width: 1440px;
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat Medium';
+  src: url('../fonts/Montserrat-Medium.ttf');
+}
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat Medium', sans-serif;
+  background-color: $cream;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: serif;
+}
+
+@mixin flex(
+  $direction: row,
+  $flex-wrap: nowrap,
+  $justify-content: flex-start,
+  $align-items: initial
+) {
+  display: flex;
+  flex-direction: $direction;
+  flex-wrap: $flex-wrap;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}
+
+@mixin mobile {
+  @media (max-width: #{$mobile-width}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.text--yellow {
+  color: $darkyellow;
+}
+
+.margin-h-10 {
+  margin: 0 10px;
+}
+
+.invert {
+  transform: rotate(180deg);
+  &::before {
+    transform: rotate(180deg);
+  }
+}

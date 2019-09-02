@@ -1,0 +1,36 @@
+.btn {
+  background-color: $darkyellow;
+  color: #fff;
+  border-radius: 6px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 1rem;
+  padding: 20px 30px;
+}
+
+.input {
+  font-size: 1rem;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid $lightgray;
+  min-width: 400px;
+  &::placeholder {
+    color: lighten($color: $lightgray, $amount: 5);
+    text-transform: capitalize;
+  }
+}
+
+.tag {
+  font-size: 0.8rem;
+  border-radius: 3px;
+  color: $darkyellow;
+  border: 1px solid $darkyellow;
+  padding: 5px 10px;
+}
+
+.avatar {
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 4px 0 rgba(17, 22, 26, 0.048),
+    0 2px 4px 0 rgba(17, 22, 26, 0.02), 0 4px 8px 0 rgba(17, 22, 26, 0.034);
+}
