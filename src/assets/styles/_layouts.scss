@@ -83,13 +83,19 @@
   }
   &.filled {
     background-color: $lightyellow;
+    justify-content: flex-start;
     .info {
       background-color: $darkyellow;
       color: white;
       padding: 5px;
       border: 1px solid $lightgray;
       border-radius: 3px;
+      width: 100%;
+      text-align: center;
     }
+  }
+  &.wide {
+    grid-column: span 3;
   }
 }
 
