@@ -7,7 +7,7 @@
         <span>{{ link.name }}</span>
       </li>
     </ul>
-    <p>&copy; Peexoo.ai</p>
+    <p>&copy; 2019 Peexoo Technologies</p>
   </div>  
 </template>
 
